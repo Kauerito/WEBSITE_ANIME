@@ -1,0 +1,158 @@
+@import url(GLOBAL.css);
+@import url(header.css);
+
+
+/* Estilo do container */
+.login-container {
+    background-color: #04050500;
+    border: none;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+/* Estilo "Esqueceu a senha?" e "Crie a sua" */
+.login-container .mt-3 a {
+    color: #27c45e;
+    text-decoration: none;
+    /
+}
+
+/* Efeito de sublinhado ao passar o mouse */
+.login-container .mt-3 a:hover {
+    text-decoration: underline;
+    /* Adicione sublinhado ao passar o mouse */
+}
+
+
+/* Efeito de sublinhado ao passar o mouse */
+.login-container .mt-3 a:hover {
+    text-decoration: underline;
+    /* Adicione sublinhado ao passar o mouse */
+}
+
+/* Estilo do título "Login" */
+.login-container h1 {
+    font-size: 23px;
+    /* Tamanho da fonte do título */
+    color: #000000;
+    /* Cor do título */
+}
+
+/* Estilo dos links */
+.login-container a {
+    color: #437db7;
+    /* Cor dos links */
+    text-decoration: none;
+
+}
+
+/* Sublinhado quando passar mouse sobre os links */
+
+.login-container a:hover {
+    text-decoration: underline;
+    /* Adicionar sublinhado ao passar o mouse sobre os links */
+}
+
+
+/* Cor do texto no contêiner */
+.login-container h1,
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container button,
+.login-container a {
+    color: #00000057;
+
+}
+
+/* Estilo do botão "Entrar" */
+.login-container button {
+    background-color: #00000094;
+    /* Cor de fundo */
+    border: 1px solid rgb(0, 0, 0);
+    /* Cor da borda */
+    color: #fff;
+    /* Cor do texto */
+    padding: 5px 10px;
+    /* Espaçamento interno */
+    font-size: 20px;
+    /* Tamanho da fonte */
+    border-radius: 5px;
+    /* Raio dos cantos */
+    cursor: pointer;
+    /* Cursor de mão ao passar o mouse */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transições suaves */
+
+}
+
+/* Efeito ao passar o mouse */
+.login-container button:hover {
+    background-color: rgba(202, 201, 205, 0.616);
+    /* Nova cor de fundo ao passar o mouse */
+    color: #f8f8f8;
+    /* Nova cor do texto ao passar o mouse */
+}
+
+.login-text {
+    color: rgb(255, 255, 255);
+    /* Define a cor desejada para a palavra "Login" */
+}
+
+.with-underline {
+    text-decoration: underline;
+
+}
+
+
+
+.custom-input {
+    border: 2px solid rgb(0, 0, 0);
+    /* Define a cor da borda do retângulo */
+    border-radius: 10px;
+    /* Define o raio dos cantos do retângulo */
+    padding: 10px;
+    /* Adiciona espaço interno para o texto dentro do retângulo */
+    font-size: 17px;
+    /* Define o tamanho da fonte dentro do retângulo */
+}
+
+.login-container input::placeholder {
+    color: #000000;
+    font-style: oblique;
+    background: linear-gradient(to right, #b08080, #e9e9e9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#background::after {
+    content: '';
+
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
